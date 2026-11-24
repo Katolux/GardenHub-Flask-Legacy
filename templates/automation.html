@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>🤖 Automation & Plant Status</h2>
+
+<ul>
+  <li><a href="/automation/beds">🪴 Manage Beds</a></li>
+  <li><a href="/automation/plants">🌱 Manage Plants</a></li>
+  <li><a href="/automation/sensors">🔧 Sensors</a></li>
+
+  
+</ul>
+
+<hr>
+
+<form method="POST" action="{{ url_for('automation.automation_run_watering_engine') }}">
+  <button type="submit">
+    💧 Calculate watering decisions (dry run)
+  </button>
+</form>
+
+<h3>⚠️ System events (recent)</h3>
+
+{% if system_events %}
+  <ul>
+    {% for e in system_events %}
+      <li>
+        <strong>{{ e[1] }}</strong>
+        [{{ e[2] }}]
+        {% if e[3] %}(bed {{ e[3] }}){% endif %}
+        – {{ e[4] }}
+        <br><small style="color:#666;">{{ e[0] }}</small>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p><em>No system events recorded.</em></p>
+{% endif %}
+
+
+
+<a href="/">⬅ Back</a>
+{% endblock %}

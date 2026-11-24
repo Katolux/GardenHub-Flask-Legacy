@@ -1,0 +1,34 @@
+# Local configuration and credentials
+.env
+.env.*
+*.env
+arduino_secrets.h
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.jks
+.ssh/
+.aws/
+# Runtime data and generated artifacts
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+.cache*
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+ml_models/
+*.log
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,34 @@
+# Validation environment resolved on 2026-11-24 with Python 3.12 on Windows.
+# Convenience pins, not the original historical dependency versions.
+attrs==26.1.0
+blinker==1.9.0
+cattrs==26.2.1
+certifi==2026.11.20
+charset-normalizer==3.5.3
+click==8.5.1
+Flask==3.1.3
+flatbuffers==25.9.23
+gunicorn==27.0.1
+h11==0.16.0
+idna==3.20
+itsdangerous==2.2.0
+jh2==5.0.15
+Jinja2==3.1.6
+MarkupSafe==3.0.4
+niquests==3.21.3
+numpy==2.5.5
+openmeteo_requests==1.7.6
+openmeteo_sdk==1.31.1
+pandas==3.1.1
+platformdirs==4.14.8
+python-dateutil==4.0.0
+qh3==2.1.0
+requests==2.34.2
+requests-cache==1.3.3
+typing_extensions==4.16.0
+tzdata==2026.6
+url-normalize==4.0.0
+urllib3==2.8.0
+urllib3-future==2.25.907
+wassima==2.1.5
+Werkzeug==3.1.9

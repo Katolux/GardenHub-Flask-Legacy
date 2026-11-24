@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>📜 Historic Weather</h2>
+
+<table border="1" cellpadding="5">
+  <tr>
+    <th>Date</th>
+    <th>Max °C</th>
+    <th>Min °C</th>
+    <th>Rain (mm)</th>
+    <th>Sun (min)</th>
+    <th>Daylight (min)</th>
+    <th>Wind (km/h)</th>
+    <th>Direction</th>
+  </tr>
+
+  {% for row in weather %}
+  <tr>
+    <td>{{ row[0] }}</td>
+    <td>{{ "%.1f"|format(row[1]) }}</td>   
+    <td>{{ "%.1f"|format(row[2]) }}</td>   
+    <td>{{ "%.2f"|format(row[3]) }}</td>   
+    <td>{{ "%.0f"|format(row[4]) }}</td>   
+    <td>{{ "%.0f"|format(row[5]) }}</td>   
+    <td>{{ "%.1f"|format(row[6]) }}</td>   
+    <td>{{ "%.0f"|format(row[7]) }}°</td>
+
+  </tr>
+  {% endfor %}
+</table>
+<hr>
+
+<h2>🌡️ Recent Sensor Readings</h2>
+
+{% if readings %}
+  <table border="1" cellpadding="5">
+    <tr>
+      <th>Timestamp</th>
+      <th>Date</th>
+      <th>Bed</th>
+      <th>Sensor</th>
+      <th>Slot</th>
+      <th>Moisture (raw)</th>
+      <th>Moisture (%)</th>
+    </tr>
+    {% for r in readings %}
+      <tr>
+        <td>{{ r[0][:10] }} {{ r[0][11:16] }}</td>
+        <td>{{ r[1] }}</td>
+        <td>{{ r[2] }}</td>
+        <td>{{ r[3] }}</td>
+        <td>{{ r[4] }}</td>
+        <td>{{ r[5] }}</td>
+        <td>{{ r[6] }}%</td>
+      </tr>
+    {% endfor %}
+  </table>
+{% else %}
+  <p><em>No sensor readings recorded.</em></p>
+{% endif %}
+
+<a href="/">⬅ Back</a>
+{% endblock %}

@@ -1,0 +1,280 @@
+{
+  "scope": "Complete staged payload except this self-referential manifest",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "d6d5ebaabeadfa620cd07671d44aa5100164a8182e75d23e8e9d76ea42bc12e3",
+      "origin": "historical modified"
+    },
+    {
+      "path": "README.md",
+      "sha256": "2a62d775d60b36dc0b1f592705b2e7acd2dbcdcdd59dfe0bf9a7a67207f05920",
+      "origin": "portfolio addition"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "sha256": "4dcd37298e7fee7281931ce96a8223f4a9bfee2be67ab7c0ea251f4bbe8689af",
+      "origin": "portfolio addition"
+    },
+    {
+      "path": "app.py",
+      "sha256": "b32df334cab8af6e14f8b21f91ba5de5780ca24727234fe38fe5a6272a57ce47",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "arduino_secrets.example.h",
+      "sha256": "f313678a63671ea099ce120e9490195b0a7d62eb11a8224bc7a4ac5b6ecab7c8",
+      "origin": "historical modified"
+    },
+    {
+      "path": "arduino_send_final.cpp",
+      "sha256": "36b422bf080cfd6ed0fac39d3cc2dae29df134eb35db4fbff0f92a722db55ddb",
+      "origin": "historical modified"
+    },
+    {
+      "path": "calibration.py",
+      "sha256": "2d2ea0f65a1a80a859f32f5079eb0fea91b7c5c1471978e35e89c7e30382c5cd",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "db.py",
+      "sha256": "df0df6f8ba2ef90e7976ffa7ecfd8f357bad745c64f1e0a8974a263e9125f6c0",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "db_access.py",
+      "sha256": "bc02df5086f96669d86e09cd5d6a7409617011784b19e5844ef5f1fb8fe9fff1",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "db_init.py",
+      "sha256": "747cb450380a04dd1ccda07e5f3b90de810d8808b4205ab1aaae8d87823aed42",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "db_schema.py",
+      "sha256": "95e43606fe1d62e319e2d8d5843ab2ac2ff1eb19a307f66e0ca7496b14d02150",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "demo.py",
+      "sha256": "271d3ffdb5fcf3a7afc86fa0ecfe32049425c6f2429b0456114c9d8019640d0a",
+      "origin": "portfolio addition"
+    },
+    {
+      "path": "docs/DEPENDENCIES.json",
+      "sha256": "922a976d2e4a6839fde31807f2e4e2ef29d308e3fa8f6cde5f68e4973694174e",
+      "origin": "portfolio addition"
+    },
+    {
+      "path": "docs/PROVENANCE.md",
+      "sha256": "710dea21dbf47f9d0036fbebd56d45f0a135801decb95d99868c1a26115cad70",
+      "origin": "portfolio addition"
+    },
+    {
+      "path": "docs/SNAPSHOT_MANIFEST.json",
+      "sha256": "45dd3bafa0ffe17bc46f94c207cb3620f03c48722a7fb0158adeb8ba6ee52bf4",
+      "origin": "portfolio addition"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "sha256": "57f7ce1c9cff9a0044a661a34f0a7a885b25c8f9fb5cac6dd3873ddb56b231a2",
+      "origin": "portfolio addition"
+    },
+    {
+      "path": "garden_logic.py",
+      "sha256": "1821898dbc3da02b449f123821dae93e9b978c2d8210e9a01721f6bb076a382d",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "gardenhub/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "gardenhub/routes/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "gardenhub/routes/automation_routes.py",
+      "sha256": "a85164298b34214c037058d443ea514815ba43b62f511838e4d19335a14b2c8c",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "gardenhub/routes/plant_routes.py",
+      "sha256": "5d3ca0bf122cc8be76346c95063195b011dd00934ce27e24d71dbe8f2a6a7059",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "gardenhub/routes/sensor_routes.py",
+      "sha256": "a5af582bc4b3076ab15e10d557e08d56b6beefb5d0694fb873b51e7966e43c4c",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "gardenhub/routes/watering_routes.py",
+      "sha256": "046993a27199a4f2a284284791546f1fa5e08a71f0772041c97ec24a5768c056",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "get_weather_new.py",
+      "sha256": "c628749f885425b5f8d882c9c237cb886e0bc3eb0faa6993fba55886725c1802",
+      "origin": "historical modified"
+    },
+    {
+      "path": "historic_sensor.py",
+      "sha256": "3ee2df7b84adebb326c9bfbbf0d937d2278b4c361dcdf9e8e151eb1693d7e100",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "historic_weather.py",
+      "sha256": "b6d279bf5648285b5e0b45dcf6232b6120ed1415b9ade6b23d7b6d738dccc24e",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "ml_pipeline.py",
+      "sha256": "88be85ebae1110e2fd6ae95da097481515dd1ef41f5ad5baba848b0dae9cd20f",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "python_receiver.py",
+      "sha256": "e1686de2ef8ce7ef58067093338c7b6d5d4515eb1258cdf3d31c91f61da1f5b6",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "repositories.py",
+      "sha256": "3edc41056c3227e8ca8a2df039bde34d829e2b86fc00e3e25b6f2de6f24eb6c2",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "requirements-demo.txt",
+      "sha256": "8d876896a1871d2680447b39b949547f5201136a12fdf2fd66bc350b269b5f92",
+      "origin": "portfolio addition"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "3c558a0668e8c5563a33361f41a4e0c6a7ebbed32e31b627f59b7315951b9aea",
+      "origin": "historical modified"
+    },
+    {
+      "path": "scheduler.py",
+      "sha256": "29c9d10e5a5c3800f39754def35f13260f90a0e12d95c469a7b2ed0680f49592",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "seeding/__init__.py",
+      "sha256": "972387b0a37d55c256a6ae017f5131a5dc6691cfbb39f53d146a4b32e1dd2913",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "seeding/plant_seeder.py",
+      "sha256": "994cae28725175822993a9ac36cc3b35f10fa92446604c196130120fa78a44ed",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "seeding/seed_plants.py",
+      "sha256": "7d180c671d9b08617afdc864eeee8460f47edeeb985ce4eea490083d0192d364",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "static/css/main.css",
+      "sha256": "306a18ab3cd5902068192502983bdcbee832541e48daf971515e8f01d3742948",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "static/style.css",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "system_events_repo.py",
+      "sha256": "fba70a71c86abc47098182e2a77bed53d04ccc54e21d20b557f347c312cf78e2",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "templates/automation.html",
+      "sha256": "1534d5bae4f9fb6575cb346fbecf7f821d94adc429ff6e19809e037af8302072",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "templates/automation_beds.html",
+      "sha256": "486d4b9d1d9a1f49ca37d271f38cedc918ebe4ad5b0efd9ec0ab8678175d049e",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "templates/automation_plant_add.html",
+      "sha256": "76b51eba5f66a153dcbbcc9ff401eb8b8068f61a63ec08960a566588d4c51778",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "templates/automation_plant_add_variety.html",
+      "sha256": "1021715c8decdad07a31ba08bf183768ff5bca936c914cd9699bcea6ff155096",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "templates/automation_plant_confirm_delete.html",
+      "sha256": "24584013414f95e611a67f3d16e6ce435bb5f5385648c338a8113f8c987341d9",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "templates/automation_plant_detail.html",
+      "sha256": "ff49601cfab3d5a9a01735fd14c6e499d78411c077f1cbf84cba807fb962f8c6",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "templates/automation_plants.html",
+      "sha256": "0478ca0cdaca592018d605759ec49234331c53ef939c89c164a2993946b7e848",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "templates/automation_sensors.html",
+      "sha256": "d371a5485c53e525af2c738a22f0fcafcff48d735ad86b99e81d901cfcc14c1c",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "templates/automation_variety_confirm_delete.html",
+      "sha256": "87b7296299f0a0f7565b3a6717bfc13b836bcb1c8b4a87bf9e9c47edf182f194",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "templates/base.html",
+      "sha256": "10ceaa4b5418ff9de2e65cb3eb64f61829c8b9d1858178cac5586b149d967b37",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "templates/dashboard.html",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "templates/history.html",
+      "sha256": "9388f9243b5ecbb71163b360fe6e172fa0432ed5e0ec3722c89bfa84bc09edfd",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "templates/index.html",
+      "sha256": "2fc17d405f4f89d492c8818cdbd0e7e709c4627370013a76fdee6964bf3132e8",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "templates/watering.html",
+      "sha256": "c7c2efcfa16116c766de16b7d2ed134f05a3d23e7b7b4d2492883581a644e515",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "tests/test_snapshot.py",
+      "sha256": "afa0e3902a7892281974935646834b1daacde328721841ed565f070297a62775",
+      "origin": "portfolio addition"
+    },
+    {
+      "path": "watering_decision.py",
+      "sha256": "773665a0c72dfa71f309f3dd5f3bdb7de9fd05b10b6f55177c2c6458ff857093",
+      "origin": "historical unchanged"
+    },
+    {
+      "path": "watering_engine.py",
+      "sha256": "68fc7f48f79c2961d302e3668a521e4c4425319033b286daa2470a8a3c6ac169",
+      "origin": "historical unchanged"
+    }
+  ]
+}

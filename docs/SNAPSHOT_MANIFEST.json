@@ -1,0 +1,686 @@
+{
+  "historical_source": "Katolux/GardenHub",
+  "historical_sha": "db37552f9dd68158004e5a2aa929af7a3b8e6eca",
+  "historical_date": "2026-05-04",
+  "files": [
+    {
+      "path": ".gitignore",
+      "action": "modified",
+      "historical_sha256": "9345a396c8d78085df7cd429f708f7c1c9fabe918f3459a98eca1e8fb77b9a62",
+      "reason": "exclude credentials, certificates, databases and generated artifacts"
+    },
+    {
+      "path": "README.md",
+      "action": "excluded",
+      "reason": "replaced with verified portfolio documentation",
+      "historical_sha256": "6b73243bbe92e0444ffb25b1ad59c8a65137a6b37dcabdb7c487e8d72bb79f34"
+    },
+    {
+      "path": "app.py",
+      "action": "unchanged",
+      "historical_sha256": "b32df334cab8af6e14f8b21f91ba5de5780ca24727234fe38fe5a6272a57ce47"
+    },
+    {
+      "path": "arduino_secrets.example.h",
+      "action": "modified",
+      "historical_sha256": "244cebf9654b38214740525321c9f34427458e748a62a07893434b4d3f4bc737",
+      "reason": "replace local network example with explicit placeholders and TEST-NET address"
+    },
+    {
+      "path": "arduino_send_final.cpp",
+      "action": "modified",
+      "historical_sha256": "5839d518ed614924a09041be7185f4f62fcbcf13677cd77d429e27c194a8646a",
+      "reason": "replace private HTTP destination with example header configuration"
+    },
+    {
+      "path": "calibration.py",
+      "action": "unchanged",
+      "historical_sha256": "2d2ea0f65a1a80a859f32f5079eb0fea91b7c5c1471978e35e89c7e30382c5cd"
+    },
+    {
+      "path": "db.py",
+      "action": "unchanged",
+      "historical_sha256": "df0df6f8ba2ef90e7976ffa7ecfd8f357bad745c64f1e0a8974a263e9125f6c0"
+    },
+    {
+      "path": "db_access.py",
+      "action": "unchanged",
+      "historical_sha256": "bc02df5086f96669d86e09cd5d6a7409617011784b19e5844ef5f1fb8fe9fff1"
+    },
+    {
+      "path": "db_init.py",
+      "action": "unchanged",
+      "historical_sha256": "747cb450380a04dd1ccda07e5f3b90de810d8808b4205ab1aaae8d87823aed42"
+    },
+    {
+      "path": "db_schema.py",
+      "action": "unchanged",
+      "historical_sha256": "95e43606fe1d62e319e2d8d5843ab2ac2ff1eb19a307f66e0ca7496b14d02150"
+    },
+    {
+      "path": "dev_tests/Main.py",
+      "action": "excluded",
+      "reason": "omitted operational experiments",
+      "historical_sha256": "8787ab75e255130b968ea0a11b031f698c12d012093cfe4b85c1d3d7fa94a28f"
+    },
+    {
+      "path": "dev_tests/arduino_ip.cpp",
+      "action": "excluded",
+      "reason": "omitted operational experiments",
+      "historical_sha256": "4b18a05eb7f8f722d4a40a848ad21ad1ce92d9e95ed00bda50b7bf75b85ad4c2"
+    },
+    {
+      "path": "dev_tests/arduino_send_test.cpp",
+      "action": "excluded",
+      "reason": "omitted operational experiments",
+      "historical_sha256": "54da9d0f7153fcca8d229f78a40066f0f13dbc65a8f9ac070af122ff96081c0d"
+    },
+    {
+      "path": "dev_tests/arduino_test",
+      "action": "excluded",
+      "reason": "omitted operational experiments",
+      "historical_sha256": "900813e1cb4edd387202745538511d57b4b2512d8fb2a95d1dd79435c4a58241"
+    },
+    {
+      "path": "dev_tests/check_macadress.cpp",
+      "action": "excluded",
+      "reason": "omitted operational experiments",
+      "historical_sha256": "62fd0f7eacdb78a183cd785769879b1690d2c9f0df0c965f385746dca927ba04"
+    },
+    {
+      "path": "dev_tests/debug_import.py",
+      "action": "excluded",
+      "reason": "omitted operational experiments",
+      "historical_sha256": "b51e5ccad60c4a5a4479676a591309fb642243b2f627967bfc0655ca5727b0c0"
+    },
+    {
+      "path": "dev_tests/python_receiver_test.py",
+      "action": "excluded",
+      "reason": "omitted operational experiments",
+      "historical_sha256": "046ea7618c3cafc7dcae7fe4d6eaf6649534646a6491ec3f7a0fce0529f5d85d"
+    },
+    {
+      "path": "dev_tests/test_code_andruino.cpp",
+      "action": "excluded",
+      "reason": "omitted operational experiments",
+      "historical_sha256": "970a5b6d9ce7da79301d08a7e41b5118b3ac72dde86af1e967651de9440c02d6"
+    },
+    {
+      "path": "dev_tests/test_perenual.py",
+      "action": "excluded",
+      "reason": "omitted operational experiments",
+      "historical_sha256": "b56b459f524def4ed2ab43725ed898fa421d86b926b1e8b7ef8bb5022484ce07"
+    },
+    {
+      "path": "dev_tests/test_trefle.py",
+      "action": "excluded",
+      "reason": "omitted operational experiments",
+      "historical_sha256": "7f9ae05fdc5decc8a3e140b5ce5838e5a521bf7eac512ed812814c541f8993fa"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "action": "excluded",
+      "reason": "replaced with verified portfolio documentation",
+      "historical_sha256": "bd0410a0e92a7af12b31ab706208b85f969afa6f121d86f8a1965bbbee4aecb7"
+    },
+    {
+      "path": "docs/DEPLOYMENT.md",
+      "action": "excluded",
+      "reason": "replaced with verified portfolio documentation",
+      "historical_sha256": "f53a00cae8b78f480669b78c077305feb951931e219a95c66348d1f3d7463876"
+    },
+    {
+      "path": "docs/DEV_NOTES_V1_2_PLANTS.md",
+      "action": "excluded",
+      "reason": "replaced with verified portfolio documentation",
+      "historical_sha256": "7716a7ae5493340926e4940ca78ccf7f23e42efd3c642b00a0f96fc75e9546e7"
+    },
+    {
+      "path": "docs/NEXT_STEPS.md",
+      "action": "excluded",
+      "reason": "replaced with verified portfolio documentation",
+      "historical_sha256": "bcdea7c5f6946498c21b86d87dc31c0b892cfabe09260195b76e64ab25847ff2"
+    },
+    {
+      "path": "docs/OPERATIONS.md",
+      "action": "excluded",
+      "reason": "replaced with verified portfolio documentation",
+      "historical_sha256": "071b2e8b55abcac1436bc1186eab2121774ee965a8bfdaf53c1233420c318698"
+    },
+    {
+      "path": "docs/REFACTOR_PLAN.md",
+      "action": "excluded",
+      "reason": "replaced with verified portfolio documentation",
+      "historical_sha256": "e1008e374419fb2435856b4ae789980f97041328855fcbf155c3ddac64cd66c1"
+    },
+    {
+      "path": "docs/ROADMAP.md",
+      "action": "excluded",
+      "reason": "replaced with verified portfolio documentation",
+      "historical_sha256": "899a544c327b55ccd95bceccf622a6cf2b5714af7e8a3c789f04c71ec3a3eefe"
+    },
+    {
+      "path": "docs/images/control_box.jpg",
+      "action": "excluded",
+      "reason": "replaced with verified portfolio documentation",
+      "historical_sha256": "fa2c9459c5161cbab6f387f743f6b461f95368df69910b557fd13a92f2ad6e88"
+    },
+    {
+      "path": "docs/images/raspberry_pi.jpg",
+      "action": "excluded",
+      "reason": "replaced with verified portfolio documentation",
+      "historical_sha256": "bcc61a71fe3f30e293e869bb76607c213c8667f5e605436a2e457d5c0280986f"
+    },
+    {
+      "path": "docs/images/sensor_test.jpg",
+      "action": "excluded",
+      "reason": "replaced with verified portfolio documentation",
+      "historical_sha256": "f6afd5f3dbb5bf6f9a253d06f79a7f10fea27660368a69faf768d464b3501813"
+    },
+    {
+      "path": "garden_logic.py",
+      "action": "unchanged",
+      "historical_sha256": "1821898dbc3da02b449f123821dae93e9b978c2d8210e9a01721f6bb076a382d"
+    },
+    {
+      "path": "gardenhub/__init__.py",
+      "action": "unchanged",
+      "historical_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "gardenhub/routes/__init__.py",
+      "action": "unchanged",
+      "historical_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "gardenhub/routes/automation_routes.py",
+      "action": "unchanged",
+      "historical_sha256": "a85164298b34214c037058d443ea514815ba43b62f511838e4d19335a14b2c8c"
+    },
+    {
+      "path": "gardenhub/routes/plant_routes.py",
+      "action": "unchanged",
+      "historical_sha256": "5d3ca0bf122cc8be76346c95063195b011dd00934ce27e24d71dbe8f2a6a7059"
+    },
+    {
+      "path": "gardenhub/routes/sensor_routes.py",
+      "action": "unchanged",
+      "historical_sha256": "a5af582bc4b3076ab15e10d557e08d56b6beefb5d0694fb873b51e7966e43c4c"
+    },
+    {
+      "path": "gardenhub/routes/watering_routes.py",
+      "action": "unchanged",
+      "historical_sha256": "046993a27199a4f2a284284791546f1fa5e08a71f0772041c97ec24a5768c056"
+    },
+    {
+      "path": "get_weather_new.py",
+      "action": "modified",
+      "historical_sha256": "dbaef13e5b8dc7ea889d0cd7321de68211f0cc4baf720e70593e14109468033c",
+      "reason": "replace private installation coordinates with required environment configuration; skip unconfigured live requests; replace GPL retry wrapper with Requests/urllib3 native configuration of the same existing policy"
+    },
+    {
+      "path": "historic_sensor.py",
+      "action": "unchanged",
+      "historical_sha256": "3ee2df7b84adebb326c9bfbbf0d937d2278b4c361dcdf9e8e151eb1693d7e100"
+    },
+    {
+      "path": "historic_weather.py",
+      "action": "unchanged",
+      "historical_sha256": "b6d279bf5648285b5e0b45dcf6232b6120ed1415b9ade6b23d7b6d738dccc24e"
+    },
+    {
+      "path": "ml_pipeline.py",
+      "action": "unchanged",
+      "historical_sha256": "88be85ebae1110e2fd6ae95da097481515dd1ef41f5ad5baba848b0dae9cd20f"
+    },
+    {
+      "path": "plants/basil.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "f211d31b84ed1a41d78d1262f9577dcfd4f22b632df2fd158fc0c8fc2f00a0d5"
+    },
+    {
+      "path": "plants/beetroot.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "252c5aebdc2b5491d7c1986889aa58be8529749679e9e71e53c6bfce3ea73b36"
+    },
+    {
+      "path": "plants/borage.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "fe44c1cbd7754ec6e6e48d79959cd21be63f5f1b99c276fd0c72af9c585c3680"
+    },
+    {
+      "path": "plants/brocoli.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "c4d897586eedcf68ac117fda999927b1e49144a7b31cd09f455b0c28d258b52f"
+    },
+    {
+      "path": "plants/bush_bean.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "de877a8ce26c642edfdc191761c5cf192da4647d2769a15e100d9e347d4213dc"
+    },
+    {
+      "path": "plants/cabbage.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "83833c0f65674e9612eb23ff1c6181abf045e197274efd937342654cae9b69d1"
+    },
+    {
+      "path": "plants/calendula.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "1773d0184d291e9f10a650bb6e85b078f330ae365b89345be950f1a8d0eabf89"
+    },
+    {
+      "path": "plants/carrot.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "85cd55d4ee74c4dd4b6abc3d3020c84b16ec6b7291ee20eb60c6a2e0ec72cc59"
+    },
+    {
+      "path": "plants/cauliflower.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "4d101c834fdb1427afdeee100881cd44dd6b55a6275e371964eb8fb6dc971f86"
+    },
+    {
+      "path": "plants/celery.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "9525120ed01c412c829d04f563caf2fe40976540f85410e78a52da9aadfd4582"
+    },
+    {
+      "path": "plants/chard.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "9a4cd03da97deb39c1e978dc78828b37be2163e6f333d4231ff30fabb123052d"
+    },
+    {
+      "path": "plants/chives.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "7da77b395d24c06e7ad6d6bad7bacf52272e47889a1961bef037dc68179f9830"
+    },
+    {
+      "path": "plants/coriander.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "1a2bb0bd8a011080903fc4dac2f2be84ca1f5e69d4344b9309f7aee633eef089"
+    },
+    {
+      "path": "plants/corn.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "37781f24c00d0ffa585ea437b8bf33284c34138e7153ab0c6e144e32c1b6f4ac"
+    },
+    {
+      "path": "plants/courgette_pation.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "fe44c1cbd7754ec6e6e48d79959cd21be63f5f1b99c276fd0c72af9c585c3680"
+    },
+    {
+      "path": "plants/cucumber.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "91c8a25047791b2e4735a630d94b93e9ef71fcc51701748c1f94c63e36a1e4fa"
+    },
+    {
+      "path": "plants/cucumber_pickling.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "28ffef39f9edc723c70692c7b9d458a0061eda65f21bdd8608ad662321ef960d"
+    },
+    {
+      "path": "plants/dill.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "b7e446c5409feae1cf562c6718d0e2243910111cc5cb287cc3fa0f72e1db06ed"
+    },
+    {
+      "path": "plants/eggplant.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "7640cc222c73c2be923bc95a7a6a097bd143966e364d5ad2d4eb328c7c008df8"
+    },
+    {
+      "path": "plants/fennel_bulb.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "65b2cd57c70297bb1c4342ae951bb05a70e5b2cfd7d520205d82603b8496a424"
+    },
+    {
+      "path": "plants/garlic.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "c4781b39c9509b858de8bd0aca6ab9cc6461e3db9df85d00bc5b24a005af142e"
+    },
+    {
+      "path": "plants/green_bean_pole.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "c6b264393f2f0e850519c1f70a3dc6bfc9e47f2b433b1242d41dec7a850a7bdf"
+    },
+    {
+      "path": "plants/kale.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "9ef96fa18cb86b465251413ef0fabcb45dbcb03939dae27c5489a199db975c85"
+    },
+    {
+      "path": "plants/kohlrabi.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "84493d5f833e476475a94fbdba97066397042f8140ec578e6f5ee81fdb63aac8"
+    },
+    {
+      "path": "plants/lavander.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "d7e7043425848f337932965a9614731197a0061ae4ce7397b4640d295d90fbe1"
+    },
+    {
+      "path": "plants/leek.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "1498e3ffa31be9e9119459f68a184968bfd265f5fae6404f77954d695b6281c2"
+    },
+    {
+      "path": "plants/lemon_balm.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "9dc0d2e20a263631b3dde5359098dc7a3cd1979176c0059c8b43d9bb3293a869"
+    },
+    {
+      "path": "plants/lettuce.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "90b7bf0d382610adb6b9e534fb61face87dc7083aabcf27ac8d371282f04ad90"
+    },
+    {
+      "path": "plants/marigold.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "e31511632fe6506376a9e73f1a913f2c559541bf4f21dca055bb493e07bbcba7"
+    },
+    {
+      "path": "plants/mint.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "374ad80e315b704be8bc86b614f5154060fa2611690691c4f116027759969b35"
+    },
+    {
+      "path": "plants/nasturtium.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "3d5cb5095753f4b9e3baae2381b19609d58bbb214b875b386d6950cef4188fe4"
+    },
+    {
+      "path": "plants/onion.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "f9a10ee79bf1cee4e4584ec9d7c60168fdfc459f2b62d26c678c4e7e16c77721"
+    },
+    {
+      "path": "plants/oregano.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "86fde1aea166498850cd8fb0480023cb357940c569f926b9c102bfe431e372dd"
+    },
+    {
+      "path": "plants/parsley.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "afcf22c4b43f7f003fe69fd8c55c90fcd690d994c4ae282e397f2bac8699743e"
+    },
+    {
+      "path": "plants/parsnip.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "cce7487c4ae22f36ee527d65e8dc135d4a726ad23cf934bcf67c7456c157b174"
+    },
+    {
+      "path": "plants/pea.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "1170bdee6b0516704c2f0bbd4dba4318325065638a1852ba9fb197b8dc6d1820"
+    },
+    {
+      "path": "plants/pepper.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "805937f466e69f80f6fc5d4ae6225bd9511fa390405a4891d6b5095876ad84c4"
+    },
+    {
+      "path": "plants/plants_index.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "398ce9a449fc1fb8096889343ccacc13203efac1914fded45a3004321de9fbfe"
+    },
+    {
+      "path": "plants/potato.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "44d1e294f363aaac27e7112ccd71326bf12a856f027ddf43e022f85b583128c9"
+    },
+    {
+      "path": "plants/pumpkin.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "a2d511fa7a31bf57f23a8326b94b09d7aad4595d0262c850dc6b254be619801d"
+    },
+    {
+      "path": "plants/radish.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "f2199214febd0fd022c7362547317b195579e734ae9a516e74e285e614e4d06c"
+    },
+    {
+      "path": "plants/rocket.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "bef20009cb8b5742d48299776ab0782ee175a686ad0e83f9f94c793fa3aa0c6a"
+    },
+    {
+      "path": "plants/rosemary.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "6af3837d04213b476aa91e3efb1df1369cc0fa1f8de45052ca2bcfd289eae764"
+    },
+    {
+      "path": "plants/sage.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "15ef28bac8b5b6e16ec447a94ac97aea757bc6613246a30ae847fd36d6110abe"
+    },
+    {
+      "path": "plants/spinach.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "7dfc6f04a7bc25206cc61250e039fb101809c11f9692bf1930b275dba0af2501"
+    },
+    {
+      "path": "plants/strawberry.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "2ab460ccfc06af3577c6c2dfe517a206d469c8cd90cd26fb492f60bb67eae030"
+    },
+    {
+      "path": "plants/sunflower.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "45e249970375e6f1035f74d10b4894403cd26b790b5cb76842193e7ccab07de7"
+    },
+    {
+      "path": "plants/thyme.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "2682f5f892db56fd35de7a786a7ad0e7e6c5c5f84bb608c19e85a7a001f9ee89"
+    },
+    {
+      "path": "plants/tomato.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "0bed3b4928c968c4209bd616340027b5b595a9efdc00d5a53abb638a1f6afc7d"
+    },
+    {
+      "path": "plants/turnip.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "8788565a911f04fe4534817ff22f4c435e19b87917a86f1a924f73ab6243a819"
+    },
+    {
+      "path": "plants/winter_salat_lamb_lettuce.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "9bc637476cc39591e908e029b4575dd259df12df9e826451f808b34c111bc319"
+    },
+    {
+      "path": "plants/zinnia.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "3017359b35111019e5006eaf77b3e86e97370f98453b5e2d858b02e8ae922b3e"
+    },
+    {
+      "path": "plants/zucchini.json",
+      "action": "excluded",
+      "reason": "omitted catalogue data without verified redistribution permission",
+      "historical_sha256": "5f7e241fe89ad736bb60e04368bde451fc02657ad5520e4f8f871f35aa250d52"
+    },
+    {
+      "path": "python_receiver.py",
+      "action": "unchanged",
+      "historical_sha256": "e1686de2ef8ce7ef58067093338c7b6d5d4515eb1258cdf3d31c91f61da1f5b6"
+    },
+    {
+      "path": "repositories.py",
+      "action": "unchanged",
+      "historical_sha256": "3edc41056c3227e8ca8a2df039bde34d829e2b86fc00e3e25b6f2de6f24eb6c2"
+    },
+    {
+      "path": "requirements.txt",
+      "action": "modified",
+      "historical_sha256": "a508d647a0e28d2132c65d49acc0212150f17bdd65324fd9bee143ec602211e6",
+      "reason": "remove GPL retry-requests wrapper and declare directly used urllib3 instead"
+    },
+    {
+      "path": "scheduler.py",
+      "action": "unchanged",
+      "historical_sha256": "29c9d10e5a5c3800f39754def35f13260f90a0e12d95c469a7b2ed0680f49592"
+    },
+    {
+      "path": "seeding/__init__.py",
+      "action": "unchanged",
+      "historical_sha256": "972387b0a37d55c256a6ae017f5131a5dc6691cfbb39f53d146a4b32e1dd2913"
+    },
+    {
+      "path": "seeding/plant_seeder.py",
+      "action": "unchanged",
+      "historical_sha256": "994cae28725175822993a9ac36cc3b35f10fa92446604c196130120fa78a44ed"
+    },
+    {
+      "path": "seeding/seed_plants.py",
+      "action": "unchanged",
+      "historical_sha256": "7d180c671d9b08617afdc864eeee8460f47edeeb985ce4eea490083d0192d364"
+    },
+    {
+      "path": "static/css/main.css",
+      "action": "unchanged",
+      "historical_sha256": "306a18ab3cd5902068192502983bdcbee832541e48daf971515e8f01d3742948"
+    },
+    {
+      "path": "static/style.css",
+      "action": "unchanged",
+      "historical_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "system_events_repo.py",
+      "action": "unchanged",
+      "historical_sha256": "fba70a71c86abc47098182e2a77bed53d04ccc54e21d20b557f347c312cf78e2"
+    },
+    {
+      "path": "templates/automation.html",
+      "action": "unchanged",
+      "historical_sha256": "1534d5bae4f9fb6575cb346fbecf7f821d94adc429ff6e19809e037af8302072"
+    },
+    {
+      "path": "templates/automation_beds.html",
+      "action": "unchanged",
+      "historical_sha256": "486d4b9d1d9a1f49ca37d271f38cedc918ebe4ad5b0efd9ec0ab8678175d049e"
+    },
+    {
+      "path": "templates/automation_plant_add.html",
+      "action": "unchanged",
+      "historical_sha256": "76b51eba5f66a153dcbbcc9ff401eb8b8068f61a63ec08960a566588d4c51778"
+    },
+    {
+      "path": "templates/automation_plant_add_variety.html",
+      "action": "unchanged",
+      "historical_sha256": "1021715c8decdad07a31ba08bf183768ff5bca936c914cd9699bcea6ff155096"
+    },
+    {
+      "path": "templates/automation_plant_confirm_delete.html",
+      "action": "unchanged",
+      "historical_sha256": "24584013414f95e611a67f3d16e6ce435bb5f5385648c338a8113f8c987341d9"
+    },
+    {
+      "path": "templates/automation_plant_detail.html",
+      "action": "unchanged",
+      "historical_sha256": "ff49601cfab3d5a9a01735fd14c6e499d78411c077f1cbf84cba807fb962f8c6"
+    },
+    {
+      "path": "templates/automation_plants.html",
+      "action": "unchanged",
+      "historical_sha256": "0478ca0cdaca592018d605759ec49234331c53ef939c89c164a2993946b7e848"
+    },
+    {
+      "path": "templates/automation_sensors.html",
+      "action": "unchanged",
+      "historical_sha256": "d371a5485c53e525af2c738a22f0fcafcff48d735ad86b99e81d901cfcc14c1c"
+    },
+    {
+      "path": "templates/automation_variety_confirm_delete.html",
+      "action": "unchanged",
+      "historical_sha256": "87b7296299f0a0f7565b3a6717bfc13b836bcb1c8b4a87bf9e9c47edf182f194"
+    },
+    {
+      "path": "templates/base.html",
+      "action": "unchanged",
+      "historical_sha256": "10ceaa4b5418ff9de2e65cb3eb64f61829c8b9d1858178cac5586b149d967b37"
+    },
+    {
+      "path": "templates/dashboard.html",
+      "action": "unchanged",
+      "historical_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "templates/history.html",
+      "action": "unchanged",
+      "historical_sha256": "9388f9243b5ecbb71163b360fe6e172fa0432ed5e0ec3722c89bfa84bc09edfd"
+    },
+    {
+      "path": "templates/index.html",
+      "action": "unchanged",
+      "historical_sha256": "2fc17d405f4f89d492c8818cdbd0e7e709c4627370013a76fdee6964bf3132e8"
+    },
+    {
+      "path": "templates/watering.html",
+      "action": "unchanged",
+      "historical_sha256": "c7c2efcfa16116c766de16b7d2ed134f05a3d23e7b7b4d2492883581a644e515"
+    },
+    {
+      "path": "watering_decision.py",
+      "action": "unchanged",
+      "historical_sha256": "773665a0c72dfa71f309f3dd5f3bdb7de9fd05b10b6f55177c2c6458ff857093"
+    },
+    {
+      "path": "watering_engine.py",
+      "action": "unchanged",
+      "historical_sha256": "68fc7f48f79c2961d302e3668a521e4c4425319033b286daa2470a8a3c6ac169"
+    }
+  ]
+}
